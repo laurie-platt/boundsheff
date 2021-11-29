@@ -1,0 +1,17 @@
+Package: boundsheff
+Type: Package
+Title: Area boundaries for Sheffield
+Version: 0.0.1
+Date: 2021-11-29
+Author@R: person("Laurie", "Platt", role = c("aut", "cre"))
+Author: Laurie Platt [aut, cre]
+Maintainer: Laurie Platt <laurie.platt@sheffield.gov.uk>
+Description: Area boundaries for Sheffield as simple features.
+URL: https://github.com/scc-pi/popsheff/
+BugReports: https://github.com/scc-pi/popsheff/issues/
+License: MIT + file LICENSE
+Depends: R (>= 3.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
