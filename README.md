@@ -39,16 +39,22 @@ library(boundsheff)
 library(sf)
 ```
 
-    ## Linking to GEOS 3.9.1, GDAL 3.2.1, PROJ 7.2.1
-
-## sf_sheff
-
-LA (Local Authority) boundary.
-
 ## sf_asc_localities
+
+ASC (Adult Social Care) locality boundaries.
 
 ``` r
 plot(st_geometry(sf_asc_localities))
 ```
 
 ![](README_files/figure-gfm/sf_asc_localities-1.png)<!-- -->
+
+## sf_nhood
+
+100 neighbourhood boundaries.
+
+``` r
+plot(st_geometry(sf_nhood))
+```
+
+![](README_files/figure-gfm/sf_nhood-1.png)<!-- -->

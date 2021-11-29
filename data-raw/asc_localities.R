@@ -17,11 +17,6 @@ asc_localities_url <- str_c(
   "https://sheffieldcitycouncil.cloud.esriuk.com/portal/sharing/servers/",
   "dbfe34dca2b242ea8c13bbdd3cfa632b/rest/services/AGOL/Boundaries/MapServer/2")
 
-# Location of data we're using for maps
-map_data_folder <- str_c(
-  "S:/Public Health/Policy Performance Communications/Business Intelligence/",
-  "Projects/AdultSocialCare/ASC_SNA/data")
-
 # READ --------------------------
 
 # Get ASC localities as simple features with WSG84 coordinates

@@ -32,21 +32,23 @@ The data is from the [ONS Open Geography Portal](https://scc-pi.github.io/notes/
 
 # Sheffield boundaries  
 
-```{r library}
+```{r library, message=FALSE}
 library(boundsheff)
 library(sf)
 ```
 
-## sf_sheff
-
-LA (Local Authority) boundary.
-
-```{r sf_sheff}
-
-```
-
 ## sf_asc_localities
+
+ASC (Adult Social Care) locality boundaries.
 
 ```{r sf_asc_localities}
 plot(st_geometry(sf_asc_localities))
+```
+
+## sf_nhood
+
+100 neighbourhood boundaries.
+
+```{r sf_nhood}
+plot(st_geometry(sf_nhood))
 ```
