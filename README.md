@@ -27,9 +27,8 @@ menu.
 
 The data is from the [ONS Open Geography
 Portal](https://scc-pi.github.io/notes/spatial-data-sources.html#open-geography),
-the [SCC AGOL](https://sheffieldcc.maps.arcgis.com/) (ArcGIS Online), or
-the [SCC
-Portal](https://sheffieldcitycouncil.cloud.esriuk.com/portal/home/)
+[SCC AGOL](https://sheffieldcc.maps.arcgis.com/) (ArcGIS Online), or the
+[SCC Portal](https://sheffieldcitycouncil.cloud.esriuk.com/portal/home/)
 (ArcGIS Enterprise). The latter is behind the Council’s firewall.
 
 # Sheffield boundaries
@@ -58,3 +57,43 @@ plot(st_geometry(sf_nhood))
 ```
 
 ![](README_files/figure-gfm/sf_nhood-1.png)<!-- -->
+
+## sf_ward
+
+28 Ward boundaries.
+
+``` r
+plot(st_geometry(sf_ward))
+```
+
+![](README_files/figure-gfm/sf_ward-1.png)<!-- -->
+
+## sf_msoa
+
+70 MSOA boundaries.
+
+``` r
+plot(st_geometry(sf_msoa))
+```
+
+![](README_files/figure-gfm/sf_msoa-1.png)<!-- -->
+
+## sf_lsoa
+
+345 LSOA boundaries.
+
+``` r
+plot(st_geometry(sf_lsoa))
+```
+
+![](README_files/figure-gfm/sf_lsoa-1.png)<!-- -->
+
+## sf_oa
+
+1,817 Output Area boundaries.
+
+``` r
+plot(st_geometry(sf_oa))
+```
+
+![](README_files/figure-gfm/sf_oa-1.png)<!-- -->

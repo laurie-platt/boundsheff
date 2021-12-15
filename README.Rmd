@@ -28,7 +28,7 @@ Using RStudio you can does this via the *Tools > Install packages...* menu.
 
 # Sources
 
-The data is from the [ONS Open Geography Portal](https://scc-pi.github.io/notes/spatial-data-sources.html#open-geography), the [SCC AGOL](https://sheffieldcc.maps.arcgis.com/) (ArcGIS Online), or the [SCC Portal](https://sheffieldcitycouncil.cloud.esriuk.com/portal/home/) (ArcGIS Enterprise). The latter is behind the Council's firewall. 
+The data is from the [ONS Open Geography Portal](https://scc-pi.github.io/notes/spatial-data-sources.html#open-geography), [SCC AGOL](https://sheffieldcc.maps.arcgis.com/) (ArcGIS Online), or the [SCC Portal](https://sheffieldcitycouncil.cloud.esriuk.com/portal/home/) (ArcGIS Enterprise). The latter is behind the Council's firewall. 
 
 # Sheffield boundaries  
 
@@ -51,4 +51,36 @@ plot(st_geometry(sf_asc_localities))
 
 ```{r sf_nhood}
 plot(st_geometry(sf_nhood))
+```
+
+## sf_ward
+
+28 Ward boundaries.
+
+```{r sf_ward}
+plot(st_geometry(sf_ward))
+```
+
+## sf_msoa
+
+70 MSOA boundaries.
+
+```{r sf_msoa}
+plot(st_geometry(sf_msoa))
+```
+
+## sf_lsoa
+
+345 LSOA boundaries.
+
+```{r sf_lsoa}
+plot(st_geometry(sf_lsoa))
+```
+
+## sf_oa
+
+1,817 Output Area boundaries.
+
+```{r sf_oa}
+plot(st_geometry(sf_oa))
 ```
